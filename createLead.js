@@ -46,11 +46,12 @@ function handleApiError(error) {
 const apiUrl = `${baseUrl}/createLead`;
 const requestData = {
   properties: {
-    firstname: 'John',
-    lastname: 'Doe',
-    email: 'johndoe@example.com'
+    firstname: 'Alice',
+    lastname: 'Smith',
+    email: 'alicesmith@example.com'
   }
 };
+
 const requestHeaders = {
   'Content-Type': 'application/json'
 };
